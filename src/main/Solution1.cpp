@@ -56,6 +56,7 @@ vector<int> Solution1::twoSum2(vector<int> &nums, int target) {
 
 	}
 	return result;
+	
 }
 
 vector<int> Solution1::twoSum3(vector<int> &nums, int target) {
