@@ -10,7 +10,6 @@ namespace {
 	using namespace std;
 	TEST(Solution2_addTwoNumbers1__Test1_Test,Test1)
 	{
-
 	    Solution2::ListNode *head=new Solution2::ListNode(2);
 		Solution2::ListNode *current=head;
 		current->next=new Solution2::ListNode(9);
