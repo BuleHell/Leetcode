@@ -16,17 +16,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88eb3b4f-695b-459d-8cc3-fc36c7571a17" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mac/libgtest.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mac/libgtest_main.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/libgtest.a" beforeDir="false" afterPath="$PROJECT_DIR$/lib/win/libgtest.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/libgtest_main.a" beforeDir="false" afterPath="$PROJECT_DIR$/lib/win/libgtest_main.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/libgtest_maind.a" beforeDir="false" afterPath="$PROJECT_DIR$/lib/win/libgtest_maind.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/libgtestd.a" beforeDir="false" afterPath="$PROJECT_DIR$/lib/win/libgtestd.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Solution2Test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Solution2Test.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
@@ -83,7 +73,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Solution.cpp" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Solution.cpp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/Solution.cpp">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="297">
@@ -92,7 +82,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Solution2Test.cpp" pinned="false" current-in-tab="false">
+          <file leaf-file-name="scratch.cpp" pinned="false" current-in-tab="false">
+            <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.cpp">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file leaf-file-name="markdown-navigator.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.idea/markdown-navigator.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1672" />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Solution2Test.cpp" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/Solution2Test.cpp">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="432">
@@ -102,11 +104,6 @@
                   </folding>
                 </state>
               </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="gmock.h" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/include/gmock/gmock.h">
-              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
           <file leaf-file-name="Solution1.cpp" pinned="false" current-in-tab="false">
@@ -164,6 +161,7 @@
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/test/Solution2Test.cpp" />
         <option value="$PROJECT_DIR$/src/main/Solution.cpp" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.cpp" />
       </list>
     </option>
   </component>
@@ -273,6 +271,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -348,8 +355,23 @@
       <workItem from="1527768492686" duration="5320000" />
       <workItem from="1534920057505" duration="602000" />
       <workItem from="1534920676953" duration="6457000" />
-      <workItem from="1535258205024" duration="670000" />
+      <workItem from="1535258205024" duration="983000" />
     </task>
+    <task id="LOCAL-00001" summary="对应的lib文档">
+      <created>1535259011431</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535259011431</updated>
+    </task>
+    <task id="LOCAL-00002" summary="相应的cline的文件">
+      <created>1535259177908</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1535259177908</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -385,7 +407,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24735000" />
+    <option name="totallyTimeSpent" value="25048000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -402,11 +424,11 @@
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49626467" visible="true" weight="0.19275825" />
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.4978678" weight="0.32942432" />
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.82675904" weight="0.50692225" />
-      <window_info active="true" anchor="bottom" id="CMake" order="8" sideWeight="0.5127932" visible="true" weight="0.26517573" />
+      <window_info anchor="bottom" id="CMake" order="8" sideWeight="0.5127932" weight="0.26517573" />
       <window_info anchor="right" id="LuaJ" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4978678" weight="0.32800853" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" visible="true" weight="0.3290735" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.5021322" side_tool="true" weight="0.32942432" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
@@ -447,6 +469,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="对应的lib文档" />
+    <MESSAGE value="相应的cline的文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="相应的cline的文件" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -465,12 +492,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
     <entry file="file://$PROJECT_DIR$/include/gmock/gmock.h">
       <provider selected="true" editor-type-id="text-editor" />
@@ -683,6 +704,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Solution.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/markdown-navigator.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1672" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/Solution2Test.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -690,13 +726,6 @@
           <folding>
             <element signature="e#45#69#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Solution.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
         </state>
       </provider>
     </entry>
