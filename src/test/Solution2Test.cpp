@@ -25,7 +25,7 @@ namespace {
 		Solution2::ListNode *aa=solution2->addTwoNumbers1(head,head);
 		while (aa!= nullptr)
 		{
-			cout<<aa->val<<"/t"<<endl;
+			cout<<aa->val<<"\t"<<endl;
 			aa=aa->next;
 		}
 
