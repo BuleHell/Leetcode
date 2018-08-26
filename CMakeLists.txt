@@ -23,7 +23,19 @@ include_directories(${PROJECT_SOURCE_DIR}/include
                     )
 
 ### 添加lib文件
-LINK_DIRECTORIES(${PROJECT_SOURCE_DIR}/lib)
+MESSAGE(STATUS "请编译相应的文件lib")
+
+IF (WIN32)
+    MESSAGE(STATUS "当前系统是：windows")
+    LINK_DIRECTORIES(${PROJECT_SOURCE_DIR}/lib/win)
+ELSEIF (APPLE)
+    MESSAGE(STATUS "当前系统是：Apple Mac")
+    LINK_DIRECTORIES(${PROJECT_SOURCE_DIR}/lib/mac)
+ELSEIF (UNIX)
+    LINK_DIRECTORIES(${PROJECT_SOURCE_DIR}/lib/linux)
+    MESSAGE(STATUS "当前系统是：UNIX-like OS's. Including aPPLE os x  and CygWin")
+ENDIF ()
+
 
 
 add_executable(leetcode ${SRC_LIST})
