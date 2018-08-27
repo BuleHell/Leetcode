@@ -9,16 +9,16 @@ set(CMAKE_CXX_STANDARD 11)
 
 # 查找当前目录下的所有源文件
 # 并将名称保存到 DIR_SRCS 变量
-aux_source_directory(src/main DIR_SRCS1)
+aux_source_directory(src/main/Source DIR_SRCS1)
 aux_source_directory(src/test DIR_SRCS2)
 set(SRC_LIST ${DIR_SRCS1}  ${DIR_SRCS2})
-#message(STATUS ${SRC_LIST})
+message(STATUS "当前的source文件:" ${SRC_LIST})
 
 
 
 ### 添加include文件
 include_directories(${PROJECT_SOURCE_DIR}/include
-                    ${PROJECT_SOURCE_DIR}/src/main
+                    ${PROJECT_SOURCE_DIR}/src/main/Header
                     ${PROJECT_SOURCE_DIR}/src/test
                     )
 

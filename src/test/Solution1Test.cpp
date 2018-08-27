@@ -1,6 +1,6 @@
 
 #include <gtest/gtest.h>
-#include <Solution1.h>
+#include "Solution1.h"
 
 namespace {
 	TEST(Solution1_twoSum1_Test1_Test,Test1)
